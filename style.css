@@ -1,0 +1,102 @@
+body {
+    background-image: url("back3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 0;
+}
+body, h1, h2, h3, h4, h5, h6, p, a {
+    color: white !important;
+    text-shadow:  12px 12px 14px black;;
+  
+}
+body, h1, h2, h3, h4, h5, h6, p, a {
+    color: white;
+    text-shadow: 12px 12px 14px black;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+
+
+* {
+    text-shadow: 12px 12px 14px black;
+    color: white;
+}
+
+
+
+.container {
+    margin-top: 20px; 
+    padding-top: 20px; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.review {
+  
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(194, 179, 179, 0.1);
+    height: 200px;
+    width: 200px;
+}
+
+.review h3 {
+    margin-top: 0;
+}
+
+.review p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+.review .celebrity-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review .celebrity-info img {
+    width: 40px; 
+    border-radius: 70%; 
+    margin-right: 10px; 
+}
+
+.review .star-rating {
+    font-size: 20px; 
+    color: gold; 
+}
+/* Add padding and background color to the section */
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+    width: 24px; /* Adjust the width of the icon as needed */
+    height: 24px; /* Adjust the height of the icon as needed */
+    display: inline;
+    border-color: white;
+}
+.navbar-brand img{
+    height: 30px;
+  }
